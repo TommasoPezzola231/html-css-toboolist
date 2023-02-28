@@ -16,3 +16,33 @@ h1 {
 #logo {
     margin-left: 30px;
 }
+
+main {
+    max-width: 70%;
+    margin: 50px auto;
+}
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#addtask {
+    background-color: rgb(71, 173, 241);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10px;
+}
+
+#addsection {
+    background-color: white;
+    color: lightgray;
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
