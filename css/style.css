@@ -17,16 +17,16 @@ h1 {
     margin-left: 30px;
 }
 
-main {
-    max-width: 70%;
-    margin: 50px auto;
-}
-
 nav {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 5px;
     background-color: white;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-bottom: 3px solid lightgray;
 }
 
 #addtask {
@@ -45,4 +45,35 @@ nav {
     border: 1px solid lightgray;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+main {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#checkmark {
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+p {
+    margin-left: 10px;
+    font-weight: bold;
 }
