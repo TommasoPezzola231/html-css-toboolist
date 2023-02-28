@@ -54,6 +54,7 @@ main {
     background-color: white;
     padding-top: 20px;
     padding-left: 20px;
+    padding-bottom: 20px;
     box-sizing: border-box;
 }
 
@@ -115,4 +116,12 @@ p {
 
 .mobile {
     background-color: rgb(242, 158, 51);
+}
+
+.website {
+    background-color: rgb(216, 99, 161);
+}
+
+.sales {
+   background-color: rgb(176, 201, 38); 
 }
