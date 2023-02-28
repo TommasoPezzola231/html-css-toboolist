@@ -77,9 +77,18 @@ h3 {
     text-align: center;
 }
 
-.editorial {
+.cross {
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
     display: inline-block;
-    background-color: rgb(69, 171, 234);
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
     color: white;
     font-size: 10px;
     padding: 5px 10px;
@@ -90,4 +99,20 @@ h3 {
 p {
     margin-left: 10px;
     font-weight: bold;
+}
+
+.editorial {
+    background-color: rgb(69, 171, 234);
+}
+
+.q1 {
+    background-color: rgb(155, 113, 227);
+}
+
+.recruiting {
+    background-color: rgb(100, 192, 169);
+}
+
+.mobile {
+    background-color: rgb(242, 158, 51);
 }
